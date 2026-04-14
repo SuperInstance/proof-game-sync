@@ -1,0 +1,3 @@
+[workspace]
+members = ["constraint_theory_core", "game_sync"]
+resolver = "2"

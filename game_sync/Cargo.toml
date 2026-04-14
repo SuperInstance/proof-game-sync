@@ -1,0 +1,12 @@
+[package]
+name = "game_sync"
+version = "0.1.0"
+edition = "2021"
+description = "Cross-platform game-state synchronisation: float drift vs constraint-theory snap"
+
+[[bin]]
+name = "game_sync"
+path = "src/main.rs"
+
+[dependencies]
+constraint_theory_core = { path = "../constraint_theory_core", version = "1.0.1" }

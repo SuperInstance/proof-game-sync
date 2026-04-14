@@ -1,0 +1,5 @@
+[package]
+name = "constraint_theory_core"
+version = "1.0.1"
+edition = "2021"
+description = "Constraint-theory primitives: PythagoreanManifold for deterministic state snapping"
